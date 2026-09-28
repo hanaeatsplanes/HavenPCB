@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib
+    (name "HavenPCB")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/lib/HavenPCB.pretty")
+    (options "")
+    (descr "Project footprints (LCSC EasyEDA imports)"))
+)

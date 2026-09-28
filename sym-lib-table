@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib
+    (name "HavenPCB")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/lib/HavenPCB.kicad_sym")
+    (options "")
+    (descr "Project symbols (LCSC EasyEDA imports)"))
+)
