@@ -1,0 +1,122 @@
+** Drc report for HavenPCB.kicad_pcb **
+** Created on 2026-09-28T18:51:52 **
+** Report includes: Errors, Warnings **
+
+** Found 29 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(152.8000 mm, 86.5000 mm): Polygon [<no net>] of NT1 on B.Cu
+    @(151.8000 mm, 85.1300 mm): Via [VREG_GND] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(152.8000 mm, 86.5000 mm): Polygon [<no net>] of NT1 on B.Cu
+    @(150.8100 mm, 85.1400 mm): Via [VREG_GND] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2219 mm)
+    Rule: board setup constraints hole; error
+    @(152.2600 mm, 73.5000 mm): Pad A4 [VBUS] of J1 on F.Cu
+    @(152.7500 mm, 72.4200 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2219 mm)
+    Rule: board setup constraints hole; error
+    @(152.2600 mm, 73.5000 mm): Pad A9 [VBUS] of J1 on F.Cu
+    @(152.7500 mm, 72.4200 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1812 mm)
+    Rule: board setup constraints hole; error
+    @(153.0600 mm, 73.5000 mm): Pad A12 [GND] of J1 on F.Cu
+    @(152.7500 mm, 72.4200 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1812 mm)
+    Rule: board setup constraints hole; error
+    @(146.6600 mm, 73.5000 mm): Pad B1 [GND] of J1 on F.Cu
+    @(146.9700 mm, 72.4200 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2219 mm)
+    Rule: board setup constraints hole; error
+    @(147.4600 mm, 73.5000 mm): Pad B4 [VBUS] of J1 on F.Cu
+    @(146.9700 mm, 72.4200 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2219 mm)
+    Rule: board setup constraints hole; error
+    @(147.4600 mm, 73.5000 mm): Pad B9 [VBUS] of J1 on F.Cu
+    @(146.9700 mm, 72.4200 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1812 mm)
+    Rule: board setup constraints hole; error
+    @(146.6600 mm, 73.5000 mm): Pad B12 [GND] of J1 on F.Cu
+    @(146.9700 mm, 72.4200 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1812 mm)
+    Rule: board setup constraints hole; error
+    @(153.0600 mm, 73.5000 mm): Pad A1 [GND] of J1 on F.Cu
+    @(152.7500 mm, 72.4200 mm): NPTH pad of J1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(91.4400 mm, 66.0400 mm): Segment on Edge.Cuts
+    @(145.3600 mm, 66.1500 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(91.4400 mm, 66.0400 mm): Segment on Edge.Cuts
+    @(154.3600 mm, 66.1500 mm): Segment of J1 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'USB-C-SMD_TYPE-C-16PIN-2MD-073' does not match copy in library 'HavenPCB'
+    Local override; warning
+    @(149.8600 mm, 71.1200 mm): Footprint J1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.3100 mm, 98.1600 mm): Reference field of C12
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(147.3200 mm, 87.2800 mm): Reference field of R4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(148.5500 mm, 100.9900 mm): Reference field of R5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(157.8300 mm, 92.6400 mm): Reference field of C15
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(151.7400 mm, 84.1400 mm): Reference field of C6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(150.8200 mm, 84.3300 mm): Reference field of C7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(158.1100 mm, 90.3300 mm): Reference field of C18
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(156.4400 mm, 86.9800 mm): Reference field of C5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(157.9300 mm, 91.5400 mm): Reference field of C13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(155.3800 mm, 95.0400 mm): Reference field of C14
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(148.5500 mm, 84.2800 mm): Reference field of C17
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(150.5200 mm, 98.5900 mm): Reference field of C11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(158.1200 mm, 89.2700 mm): Reference field of C16
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(154.5000 mm, 85.5500 mm): Reference field of L1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.7500 mm, 88.0100 mm): Reference field of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3100 mm, 73.7700 mm): Circle of J1 on F.Silkscreen
+    @(154.1800 mm, 72.9500 mm): PTH pad SH [GND] of J1
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.5400 mm, 72.9500 mm): PTH pad SH [GND] of J1
+    @(146.6600 mm, 73.5000 mm): Pad B12 [GND] of J1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -4721,10 +4721,22 @@
 		(uuid "5a8a45fb-b7c4-4a88-bd2b-ea27a0aa17b3")
 	)
 	(junction
+		(at 257.81 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ba7fe23-2ac2-4ad6-bee6-b6748580d40e")
+	)
+	(junction
 		(at 132.08 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e092b74-a8a3-4a0a-8c6b-8c1281f69e13")
+	)
+	(junction
+		(at 257.81 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60155e28-967f-40f5-ace1-2bf32c4d06b3")
 	)
 	(junction
 		(at 120.65 129.54)
@@ -4757,6 +4769,12 @@
 		(uuid "78e7edc7-5d7b-48c7-a840-8de1b13f06b0")
 	)
 	(junction
+		(at 257.81 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dda52f0-a270-4bbf-9604-341e4daed483")
+	)
+	(junction
 		(at 171.45 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4767,6 +4785,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b10ad8c-0d1a-46f9-801b-b520ad979a55")
+	)
+	(junction
+		(at 257.81 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91cbc2b6-92f7-4553-a796-23fc90effe32")
 	)
 	(junction
 		(at 325.12 83.82)
@@ -4841,6 +4865,18 @@
 		(uuid "c5f78f41-8310-4861-ac2a-f641e575e76c")
 	)
 	(junction
+		(at 257.81 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf85aa24-993c-4f9b-a1fd-8799533e2b4f")
+	)
+	(junction
+		(at 257.81 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d09c19c3-7bf4-49f9-8827-e4c0d6cae0e6")
+	)
+	(junction
 		(at 77.47 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4887,6 +4923,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5fc302d-5ddd-44ed-a650-b726c5e90418")
+	)
+	(junction
+		(at 257.81 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa31f45f-391d-436e-a5d4-bcd19eff3e80")
 	)
 	(junction
 		(at 171.45 177.8)
@@ -5018,6 +5060,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 124.46) (xy 257.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6cf96d-2bfa-42cc-bf3b-81b68338aadf")
+	)
+	(wire
+		(pts
 			(xy 238.76 81.28) (xy 228.6 81.28)
 		)
 		(stroke
@@ -5055,6 +5107,16 @@
 			(type default)
 		)
 		(uuid "12d08ed7-b73e-4f80-9beb-a29df51cf915")
+	)
+	(wire
+		(pts
+			(xy 247.65 167.64) (xy 241.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136aae29-bec6-4027-9824-2d9392774f95")
 	)
 	(wire
 		(pts
@@ -5105,6 +5167,16 @@
 			(type default)
 		)
 		(uuid "20d16a9e-af67-4870-a856-a5b527df1d87")
+	)
+	(wire
+		(pts
+			(xy 257.81 139.7) (xy 257.81 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e36d59-aa79-4c53-910d-c99036cdfedf")
 	)
 	(wire
 		(pts
@@ -5168,6 +5240,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 172.72) (xy 257.81 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9b1f24-9d5f-4d1b-8b31-a3a59eeb884a")
+	)
+	(wire
+		(pts
 			(xy 114.3 146.05) (xy 123.19 146.05)
 		)
 		(stroke
@@ -5218,6 +5300,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 172.72) (xy 241.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e6f911-782f-47ee-946d-48db6b34c433")
+	)
+	(wire
+		(pts
 			(xy 137.16 50.8) (xy 149.86 50.8)
 		)
 		(stroke
@@ -5255,6 +5347,16 @@
 			(type default)
 		)
 		(uuid "39f493c2-3049-4a24-a8d1-a90d12ffbd2a")
+	)
+	(wire
+		(pts
+			(xy 257.81 170.18) (xy 257.81 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a98bc5b-20fb-448e-8658-668044f5d123")
 	)
 	(wire
 		(pts
@@ -5355,6 +5457,16 @@
 			(type default)
 		)
 		(uuid "49ddbb31-60bd-41c7-a071-71866880288e")
+	)
+	(wire
+		(pts
+			(xy 247.65 137.16) (xy 241.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a07d02e-b508-47a8-8d83-0e1f2eae7d6e")
 	)
 	(wire
 		(pts
@@ -5508,6 +5620,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 139.7) (xy 257.81 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656f0605-0abb-48fe-94b6-f24306facd1c")
+	)
+	(wire
+		(pts
 			(xy 273.05 83.82) (xy 285.75 83.82)
 		)
 		(stroke
@@ -5585,6 +5707,16 @@
 			(type default)
 		)
 		(uuid "7b0cc2b3-a27d-43a1-bdda-a8f1e45ed085")
+	)
+	(wire
+		(pts
+			(xy 257.81 127) (xy 257.81 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb6187b-b8b8-443e-a2e4-62881fde5df7")
 	)
 	(wire
 		(pts
@@ -5708,6 +5840,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 165.1) (xy 257.81 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9675b89f-8d3b-4a2b-93fe-24e88abb0fbd")
+	)
+	(wire
+		(pts
 			(xy 223.52 81.28) (xy 228.6 81.28)
 		)
 		(stroke
@@ -5755,6 +5897,16 @@
 			(type default)
 		)
 		(uuid "a510b5d0-1210-48d4-9fc9-3a16c770d453")
+	)
+	(wire
+		(pts
+			(xy 247.65 124.46) (xy 241.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb813a1-4378-41b1-8e05-b1ce86b8e927")
 	)
 	(wire
 		(pts
@@ -5845,6 +5997,16 @@
 			(type default)
 		)
 		(uuid "b5f024f3-d4c6-4dd6-bc76-5ee11311ce24")
+	)
+	(wire
+		(pts
+			(xy 241.3 165.1) (xy 247.65 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75c73ae-0d08-429c-ba83-d6393c8ec723")
 	)
 	(wire
 		(pts
@@ -5948,6 +6110,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 167.64) (xy 257.81 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61479fa-40fd-4d60-83ba-12c3ddd43ab6")
+	)
+	(wire
+		(pts
+			(xy 247.65 139.7) (xy 241.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d904275a-e663-42b7-9169-03518f3d5e7b")
+	)
+	(wire
+		(pts
 			(xy 137.16 43.18) (xy 142.24 43.18)
 		)
 		(stroke
@@ -5955,6 +6137,16 @@
 			(type default)
 		)
 		(uuid "d9b7d12a-b634-4216-9258-154de5fc5dab")
+	)
+	(wire
+		(pts
+			(xy 247.65 170.18) (xy 241.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1ba596-5fd3-42f2-a51b-8c647a489d93")
 	)
 	(wire
 		(pts
@@ -6005,6 +6197,16 @@
 			(type default)
 		)
 		(uuid "e8f31505-06f9-43bf-ab44-0d80079875da")
+	)
+	(wire
+		(pts
+			(xy 247.65 127) (xy 241.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a1f612-b0df-4e5b-8583-241492ab7869")
 	)
 	(wire
 		(pts
@@ -6086,6 +6288,26 @@
 		)
 		(uuid "219144f8-cf4e-4507-abfd-fe13c677444e")
 	)
+	(label "Up"
+		(at 242.57 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23cc6c75-f00c-4d2e-9ed2-c0bff292e82b")
+	)
+	(label "Right"
+		(at 242.57 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f5a3227-72d5-4d97-bafe-cc02c83cb73f")
+	)
 	(label "SWCLK"
 		(at 120.65 143.51 180)
 		(effects
@@ -6106,6 +6328,26 @@
 		)
 		(uuid "5f1a37e7-4942-4897-bbeb-b09147348b6d")
 	)
+	(label "X"
+		(at 242.57 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63e7ec1f-41a7-4b05-9c20-18b3864a5b45")
+	)
+	(label "Down"
+		(at 242.57 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "755ac8da-a068-413a-bbc7-bbfb1e424476")
+	)
 	(label "USB_D-"
 		(at 78.74 57.15 0)
 		(effects
@@ -6116,6 +6358,26 @@
 		)
 		(uuid "84d088e3-366b-40c8-a06c-f739666bd58e")
 	)
+	(label "A"
+		(at 242.57 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad87fe8f-5749-4570-b81c-9abded61bcf3")
+	)
+	(label "Y"
+		(at 242.57 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af977951-e999-444a-bd9a-67f55c494e9f")
+	)
 	(label "VREG_AVDD"
 		(at 187.96 106.68 0)
 		(effects
@@ -6125,6 +6387,26 @@
 			(justify left bottom)
 		)
 		(uuid "b7d1dacd-966d-42f1-b447-a20dc0794a67")
+	)
+	(label "Left"
+		(at 242.57 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c61db2fc-38cc-41ce-9135-a247efad447d")
+	)
+	(label "B"
+		(at 242.57 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce23c3f4-3fbf-4d34-bca3-a03130b2eca4")
 	)
 	(label "RP_D+"
 		(at 181.61 139.7 0)
@@ -6529,6 +6811,86 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13008c32-6817-4921-9a17-53a778ad6208")
+		(property "Reference" "SW3"
+			(at 252.73 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Right"
+			(at 264.922 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "35ca9919-ebde-45c4-8154-d562f86987d9")
+		)
+		(pin "1"
+			(uuid "41ca048c-d5b9-4f63-9e53-810713c5801b")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6985,6 +7347,86 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "212d474c-ad4c-4341-8806-0a6f76070d18")
+		(property "Reference" "SW4"
+			(at 252.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Left"
+			(at 264.922 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 252.73 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "11418749-baad-40f4-aa7c-8307373c7d0f")
+		)
+		(pin "1"
+			(uuid "e3d2c26a-8d6a-4c4f-b601-969f959ae9c2")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -7677,6 +8119,86 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ac51896-132f-4098-bf11-f7fadfd589ca")
+		(property "Reference" "SW9"
+			(at 252.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A"
+			(at 264.922 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 252.73 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6581899-6d1f-43a4-8932-41af462db7e3")
+		)
+		(pin "1"
+			(uuid "f8160ff5-fa9e-4979-8d5f-5ba331f3105d")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -9954,6 +10476,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ac8387d-17f1-41d3-b38f-ecea69c967bf")
+		(property "Reference" "SW5"
+			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Down"
+			(at 264.922 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 252.73 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aeb6cbcf-2b91-4461-8a10-9b3fd41f05d6")
+		)
+		(pin "1"
+			(uuid "4f72eb56-6554-4dec-ba3c-c223a72a47e2")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 220.98 77.47 0)
 		(mirror x)
@@ -10153,6 +10755,86 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9df460e1-9495-40d4-8f66-4e045b6cda38")
+		(property "Reference" "SW6"
+			(at 252.73 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "X"
+			(at 264.922 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 252.73 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2602b226-2896-44f7-b614-561b89fd9291")
+		)
+		(pin "1"
+			(uuid "0171443d-64a9-4ced-9941-ef9978d7b881")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -10487,6 +11169,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab51734c-7b2b-4664-bbbf-b8061e6624f0")
+		(property "Reference" "SW7"
+			(at 252.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Y"
+			(at 264.922 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98003962-014e-4a92-8d05-490fc451ae93")
+		)
+		(pin "1"
+			(uuid "536eefe0-6899-4f98-ab20-04889a730f8f")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abf89f29-a180-4ed9-8b8e-90013ff408b8")
+		(property "Reference" "#PWR011"
+			(at 257.81 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b725ace-615f-43c5-b4f1-767e9fada5ed")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 52.07 0)
 		(unit 1)
@@ -10559,6 +11399,86 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af2e1f93-9d75-49b0-9857-a2af76f26afc")
+		(property "Reference" "SW2"
+			(at 252.73 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Up"
+			(at 264.922 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 252.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b78f50d1-cc08-4c1f-a2e1-1b95c99768c3")
+		)
+		(pin "1"
+			(uuid "a55c5e87-7337-45d4-99a0-0d71fa1f6cbe")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -12689,6 +13609,86 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcda55bf-0df3-4467-93fe-968ccb49cc4f")
+		(property "Reference" "SW8"
+			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B"
+			(at 264.922 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 252.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aba27b84-f912-48c5-991d-340e0d139d83")
+		)
+		(pin "1"
+			(uuid "3f5947c3-7849-4b1d-83c4-f770864c108c")
+		)
+		(instances
+			(project "HavenPCB"
+				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
