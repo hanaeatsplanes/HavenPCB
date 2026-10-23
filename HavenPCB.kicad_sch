@@ -5,129 +5,6 @@
 	(uuid "c0e393ce-be42-4141-ae37-fd8c976a7d70")
 	(paper "A2")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -4697,12 +4574,6 @@
 		(uuid "3bddf801-90de-4d9d-8476-387a8d587c28")
 	)
 	(junction
-		(at 144.78 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4366b801-ab24-4fda-bac8-b8205759e3f1")
-	)
-	(junction
 		(at 273.05 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4727,22 +4598,10 @@
 		(uuid "5ba7fe23-2ac2-4ad6-bee6-b6748580d40e")
 	)
 	(junction
-		(at 132.08 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e092b74-a8a3-4a0a-8c6b-8c1281f69e13")
-	)
-	(junction
 		(at 257.81 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60155e28-967f-40f5-ace1-2bf32c4d06b3")
-	)
-	(junction
-		(at 120.65 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f7a2ff7-1851-4cca-a075-cd0833f28afb")
 	)
 	(junction
 		(at 104.14 48.26)
@@ -5130,16 +4989,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 128.27) (xy 132.08 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "171a027c-f254-4801-86a3-0e7bbd51079e")
-	)
-	(wire
-		(pts
 			(xy 267.97 82.55) (xy 267.97 83.82)
 		)
 		(stroke
@@ -5250,26 +5099,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 146.05) (xy 123.19 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d070ea5-9d99-491d-b38c-1b8fa3aee689")
-	)
-	(wire
-		(pts
-			(xy 144.78 129.54) (xy 144.78 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db04384-f459-46ee-af51-1f96f288700a")
-	)
-	(wire
-		(pts
 			(xy 154.94 172.72) (xy 166.37 172.72)
 		)
 		(stroke
@@ -5287,16 +5116,6 @@
 			(type default)
 		)
 		(uuid "2fb7590c-34fc-44c2-b66b-9493ad16593f")
-	)
-	(wire
-		(pts
-			(xy 144.78 140.97) (xy 114.3 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304cf470-625a-457e-8ad3-8ccbe9bf0adc")
 	)
 	(wire
 		(pts
@@ -5337,16 +5156,6 @@
 			(type default)
 		)
 		(uuid "38292afc-ba29-4ac8-8665-486f01b225c8")
-	)
-	(wire
-		(pts
-			(xy 114.3 138.43) (xy 132.08 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f493c2-3049-4a24-a8d1-a90d12ffbd2a")
 	)
 	(wire
 		(pts
@@ -5417,16 +5226,6 @@
 			(type default)
 		)
 		(uuid "421bd29e-b450-4f42-aefa-9cf006d5a2e7")
-	)
-	(wire
-		(pts
-			(xy 120.65 143.51) (xy 114.3 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44df0abb-7d8b-451a-8466-5e5759ce9b0d")
 	)
 	(wire
 		(pts
@@ -5610,16 +5409,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 146.05) (xy 123.19 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "648dc616-7bf5-4271-b0d1-007aa5c26679")
-	)
-	(wire
-		(pts
 			(xy 257.81 139.7) (xy 257.81 137.16)
 		)
 		(stroke
@@ -5740,16 +5529,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 128.27) (xy 144.78 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81bd65fb-eada-4a1d-9716-c3c18b6aa08f")
-	)
-	(wire
-		(pts
 			(xy 205.74 200.66) (xy 205.74 205.74)
 		)
 		(stroke
@@ -5857,26 +5636,6 @@
 			(type default)
 		)
 		(uuid "9a8f11a3-9c19-4107-81c6-01bc93dd6283")
-	)
-	(wire
-		(pts
-			(xy 114.3 135.89) (xy 120.65 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf209b8-cc7c-44d0-a44a-4312ac49f93b")
-	)
-	(wire
-		(pts
-			(xy 120.65 128.27) (xy 120.65 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4e9693-fafe-42ca-95ec-cb56bb57b342")
 	)
 	(wire
 		(pts
@@ -6007,16 +5766,6 @@
 			(type default)
 		)
 		(uuid "b75c73ae-0d08-429c-ba83-d6393c8ec723")
-	)
-	(wire
-		(pts
-			(xy 120.65 129.54) (xy 120.65 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9840076-914a-4847-ba3c-fd86ddf080b1")
 	)
 	(wire
 		(pts
@@ -6160,16 +5909,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 129.54) (xy 132.08 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e534df97-0c6a-484d-bf61-6117effc0e3b")
-	)
-	(wire
-		(pts
 			(xy 218.44 100.33) (xy 218.44 106.68)
 		)
 		(stroke
@@ -6187,16 +5926,6 @@
 			(type default)
 		)
 		(uuid "e854915b-b498-4a1e-b579-41147e42418a")
-	)
-	(wire
-		(pts
-			(xy 120.65 148.59) (xy 114.3 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f31505-06f9-43bf-ab44-0d80079875da")
 	)
 	(wire
 		(pts
@@ -6307,26 +6036,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f5a3227-72d5-4d97-bafe-cc02c83cb73f")
-	)
-	(label "SWCLK"
-		(at 120.65 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "526b8135-65a8-4633-848f-53a53358ff21")
-	)
-	(label "SWD"
-		(at 120.65 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f1a37e7-4942-4897-bbeb-b09147348b6d")
 	)
 	(label "X"
 		(at 242.57 172.72 0)
@@ -6733,84 +6442,6 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V1")
-		(at 144.78 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0eafb1ee-5aa6-4be6-a2e6-12e186a544fa")
-		(property "Reference" "#PWR024"
-			(at 144.78 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 144.78 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 144.78 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d208665-b311-490d-92ae-3d688be5a78c")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7275,84 +6906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b141cf3-9723-4e31-9159-5fa691da4d37")
-		(property "Reference" "#PWR025"
-			(at 128.27 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d98081cb-d805-4011-ba96-d0065167fa3e")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 252.73 127 0)
 		(unit 1)
@@ -7583,85 +7136,6 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2686bb11-c08d-4a8f-ba99-2771a969c1db")
-		(property "Reference" "TP4"
-			(at 110.998 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.998 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f15089db-f76a-4b9b-8986-30c3c361d8eb")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8535,85 +8009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5703334c-8899-4c38-b771-98df7ddf23d8")
-		(property "Reference" "TP1"
-			(at 110.998 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.998 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afaf6254-1edc-49e3-9b30-316122a96e2f")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 218.44 57.15 0)
 		(unit 1)
@@ -9330,210 +8725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 146.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bb570f9-2536-475f-bd82-2ed1f11ecbce")
-		(property "Reference" "TP2"
-			(at 110.998 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.998 143.51 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01e2bbe0-4124-450d-af56-da7dfda23077")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 135.89 129.54 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "71856a7e-c969-49df-b45c-f722d5db24bd")
-		(property "Reference" "C21"
-			(at 135.89 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 135.89 125.984 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 139.7 130.5052 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0402CG4R7C500NT"
-			(at 135.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 135.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 135.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 135.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 135.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e39880cd-e2d3-4238-8707-fefc93908bd1")
-		)
-		(pin "1"
-			(uuid "c03af8c7-c4f0-403e-92cc-061df402b4f0")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 172.72 147.32 0)
 		(unit 1)
@@ -10011,6 +9202,7 @@
 		)
 		(property "Value" "4.7u"
 			(at 148.59 125.984 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10106,84 +9298,6 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 132.08 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "869d160b-7b48-4304-9557-a424fc31d3c0")
-		(property "Reference" "#PWR022"
-			(at 132.08 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 132.08 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 132.08 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7281ec6-765e-4a95-a15d-af757dce4ec8")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10961,84 +10075,6 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a34fd895-30eb-49ad-89a2-5d672022fc9e")
-		(property "Reference" "#PWR05"
-			(at 123.19 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bafc10ac-6e21-483f-898b-82ccd2a98ebf")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12492,85 +11528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc2832f5-33e3-4e5e-8605-0a9dec04bb18")
-		(property "Reference" "TP6"
-			(at 110.998 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.998 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b13ac583-db0f-4534-8b48-4091c4d875c3")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 104.14 58.42 0)
 		(unit 1)
@@ -13087,163 +12044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 135.89 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9aed23d-8cac-492b-a717-00dbfd1c32bb")
-		(property "Reference" "TP5"
-			(at 110.998 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.998 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "362a4dd4-0bca-4529-b75d-d6bd212e75f7")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfcccaf7-36d7-4e67-b7f8-9354e16a3672")
-		(property "Reference" "#PWR026"
-			(at 139.7 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6be4c31a-1022-4349-9172-d3ddebc8b9e3")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 62.23 58.42 0)
 		(unit 1)
@@ -13537,84 +12337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 120.65 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dccfa4a2-cace-49d4-83f1-def809fc9cad")
-		(property "Reference" "#PWR023"
-			(at 120.65 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 120.65 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 120.65 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7cd39e5-060d-47d3-ae21-9ef9283cb841")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 252.73 167.64 0)
 		(unit 1)
@@ -13892,210 +12614,6 @@
 			(project "HavenPCB"
 				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 148.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5eb1ade-e4d2-4f99-9e69-21896070a794")
-		(property "Reference" "TP3"
-			(at 110.998 143.51 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.998 146.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46396e3b-5824-482e-9c2c-c4da9478f4a1")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 124.46 129.54 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e802b330-6ff5-4e57-9d71-a9e9bad769e5")
-		(property "Reference" "C20"
-			(at 124.46 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 124.46 125.984 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 128.27 130.5052 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0402CG4R7C500NT"
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ab2f8a88-b234-41d9-a41f-508f62567082")
-		)
-		(pin "1"
-			(uuid "fd5056ea-20e2-4d99-9101-5a3f91b0a873")
-		)
-		(instances
-			(project "HavenPCB"
-				(path "/c0e393ce-be42-4141-ae37-fd8c976a7d70"
-					(reference "C20")
 					(unit 1)
 				)
 			)
